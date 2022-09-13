@@ -6,4 +6,4 @@ def list_division(my_list_1, my_list_2, list_length):
     except ZeroDivisionError:
         div_result = 0
     finally:
-        return list_length
+    return list_length
