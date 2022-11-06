@@ -1,0 +1,11 @@
+-- wget https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/274/hbtn_0d_tvshows.sql
+-- run this first to import a SQL dump -->
+--      echo "CREATE DATABASE hbtn_0d_tvshows;" | mysql -uroot -p
+--      import dumb table into hbtn_0d_tvshows
+--
+-- script that lists all non-Comedy shows in the database hbtn_0d_tvshows
+-- tv_genres table contains only one record where name = Comedy (but the id can be different)
+-- each record should display: tv_shows.title
+-- results must be sorted in ascending order by the show title
+-- can use max two SELECT statements
+-- the database name will be passed as an argument of the mysql command
